@@ -27,10 +27,16 @@ table {
     height:150px;
 }
 
-#actual-game, #game-control {
+#actual-game {
     background-color:#2e3047;
     min-width: 280px;
-    min-height: 280px;
+    min-height: 450px;
+    padding: 5%;
+}
+#game-control {
+    background-color:#2e3047;
+    min-width: 280px;
+    min-height: 300px;
     padding: 5%;
 }
 
@@ -93,7 +99,7 @@ table {
 
     #actual-game {
         padding: 20px 0 0 0;
-        max-height:320px;
+        min-height:320px;
     
     } 
 
